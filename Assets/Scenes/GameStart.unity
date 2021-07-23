@@ -654,16 +654,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Galaxy Brain is a game where we have you think of a Pokemon and we attempt
-    to guess what Pokemon you are thinking of.
+  m_text: 'Galaxy Brain is a game where you think of a Pokemon and we attempt to
+    guess what Pokemon you are thinking of.
 
 
     Galaxy Brain asks you a series
-    of questions to narrow down on the Pokemon you are think of.
+    of questions to narrow down on the Pokemon you are thinking of.
 
 
-    At the end,
-    we either guess right or we guess wrong and then the fun continues! Pika Pika!'
+    At the
+    end, we either guess right or we guess wrong and the fun continues!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d895af34ed18724997ec9f899161308, type: 2}
   m_sharedMaterial: {fileID: -7819297510715422269, guid: 1d895af34ed18724997ec9f899161308,
