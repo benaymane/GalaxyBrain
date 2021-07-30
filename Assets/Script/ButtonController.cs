@@ -4,11 +4,15 @@ using UnityEngine.SceneManagement;
 public class ButtonController : MonoBehaviour {
     public void loadNextScene() {
         int sceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(sceneIndex + 1);
+        if(++sceneIndex < SceneManager.sceneCountInBuildSettings) {
+            SceneManager.LoadScene(sceneIndex);
+        }
     }
 
     public void changePanelVisibility(GameObject panel) {
-        bool activeStatus = panel.activeSelf;
-        panel.SetActive(!activeStatus);
+        if(panel != null) {
+            bool activeStatus = panel.activeSelf;
+            panel.SetActive(!activeStatus);
+        }
     }
 }

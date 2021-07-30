@@ -17,11 +17,13 @@ public class Game : MonoBehaviour
     }
 
     public void traverseRight() {
+        if(currentStateIsNull()) return;
         currentState = currentState.getRight();
         updateQuestionText();
     }
 
     public void traverseLeft() {
+        if(currentStateIsNull()) return;
         currentState = currentState.getLeft();
         updateQuestionText();
     }
@@ -33,11 +35,21 @@ public class Game : MonoBehaviour
     }
 
     void updateQuestionText() {
+        if(currentStateIsNull()) return;
+
+        if (currentState == null) {
+            return;
+        }
+        
         if (currentState.isLeaf()) {
             gameText.text = currentState.getPokemon().getName();
         }
         else {
             gameText.text = currentState.getQuestionText();
         }
+    }
+
+    private bool currentStateIsNull() {
+        return currentState == null;
     }
 }

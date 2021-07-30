@@ -10,20 +10,24 @@ public class State : ScriptableObject {
     [SerializeField] State leftState;
 
     public string getQuestionText() {
-        return question.getQuestionText();
+        if(question != null) {
+            return question.getQuestionText();
+        }
+        return "NO_QUESTION_ERROR";
     }
 
     public State getRight() {
-        return (rightState != null) ? rightState : throw new NullReferenceException("No Right Child!");
+        return rightState;
     }
 
     public State getLeft() {
-        return (leftState != null) ? leftState : throw new NullReferenceException("No Left Child!");
+        return leftState;
     }
 
     public Pokemon getPokemon() {
         return pokemon;
     }
+
     public bool isLeaf() {
         return (pokemon != null) ? true : false;
     }
