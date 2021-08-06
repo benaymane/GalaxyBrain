@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dd59950ac17ad94794572e302c69709, type: 3}
+  m_Name: Basic - 001
+  m_EditorClassIdentifier: 
+  question: {fileID: 11400000, guid: 7eae241596cea8840a87e395f6bc3815, type: 2}
+  pokemon: {fileID: 0}
+  rightState: {fileID: 11400000, guid: 574d00f216002c541a65f7da7497f6e9, type: 2}
+  leftState: {fileID: 11400000, guid: dbbe8b9840862d846acac6f750a6e795, type: 2}

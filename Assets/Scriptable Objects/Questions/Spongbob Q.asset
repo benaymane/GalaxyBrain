@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1b22559c7b009140986f2f41034178f, type: 3}
   m_Name: Spongbob Q
   m_EditorClassIdentifier: 
-  questionText: Does the Pokemon you are think of look like the best friend of a
-    particular sponge that wears square pants?
+  questionText: '*Smiles in superiority*
+
+    Does the Pokemon you are think of look
+    like the pink best friend of a particular sponge that wears square pants?'

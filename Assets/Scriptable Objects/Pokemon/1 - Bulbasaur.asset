@@ -17,3 +17,4 @@ MonoBehaviour:
   - Grass
   - Poison
   pokeName: Bulbasaur
+  pokeSprite: {fileID: 21300000, guid: 2c86c0670fa67c249855843797e23eae, type: 3}

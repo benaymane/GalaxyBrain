@@ -17,3 +17,4 @@ MonoBehaviour:
   - Dragon
   - Flying
   pokeName: Dragonite
+  pokeSprite: {fileID: 21300000, guid: 9837a63fcfe99ca478eb820bd3f6c136, type: 3}

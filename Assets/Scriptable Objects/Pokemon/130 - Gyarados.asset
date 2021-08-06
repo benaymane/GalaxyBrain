@@ -17,3 +17,4 @@ MonoBehaviour:
   - Water
   - Flying
   pokeName: Gyarados
+  pokeSprite: {fileID: 21300000, guid: 00d937e142193c74cb9c5f72b853c4d2, type: 3}

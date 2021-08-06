@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1b22559c7b009140986f2f41034178f, type: 3}
   m_Name: Water Q
   m_EditorClassIdentifier: 
-  questionText: Is the Pokemon you are thinking of a Water Type?
+  questionText: 'I am not giving up here but... let me ask about type.
+
+    Is the
+    Pokemon you are thinking of a Water Type?'

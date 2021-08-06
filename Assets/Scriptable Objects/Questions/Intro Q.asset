@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1b22559c7b009140986f2f41034178f, type: 3}
   m_Name: Intro Q
   m_EditorClassIdentifier: 
-  questionText: 'I will start to ask you a few questions in order to guess what Pokemon
-    you are thinking of.
+  questionText: 'Think of a Pokemon out of the available Pokemon list only and I
+    am going to attempt to guess it! The available Pokemon list can be found in the
+    Main Menu.
 
 
-    The questions are simple YES or NO questions. Answer
-    as you see fit.
+    I will be asking you simple YES or NO questions throught the
+    Game.
 
 
     Are you ready to play?'

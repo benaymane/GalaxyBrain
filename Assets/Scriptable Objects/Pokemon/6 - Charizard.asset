@@ -17,3 +17,4 @@ MonoBehaviour:
   - Fire
   - Flying
   pokeName: Charizard
+  pokeSprite: {fileID: 21300000, guid: 81f416aa1fafb814fb4c0f07086fab75, type: 3}

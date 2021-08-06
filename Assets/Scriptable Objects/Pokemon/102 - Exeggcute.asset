@@ -17,3 +17,4 @@ MonoBehaviour:
   - Grass
   - Physic
   pokeName: Exeggcute
+  pokeSprite: {fileID: 21300000, guid: 0d473e912699a254cbcde06bae43457b, type: 3}

@@ -17,3 +17,4 @@ MonoBehaviour:
   - Grass
   - Poison
   pokeName: Venusaur
+  pokeSprite: {fileID: 21300000, guid: 9c72089ea3ee024438f772761b2ff702, type: 3}

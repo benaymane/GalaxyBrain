@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1b22559c7b009140986f2f41034178f, type: 3}
   m_Name: Misty Lick Q
   m_EditorClassIdentifier: 
-  questionText: Was the Pokemon you are think involved in an iconic scene where it
-    licked the hell out of Misty?
+  questionText: 'AHA!
+
+    Was the Pokemon you are think involved in an iconic scene
+    where it licked the hell out of Misty?'

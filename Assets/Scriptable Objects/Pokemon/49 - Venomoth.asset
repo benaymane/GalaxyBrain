@@ -17,3 +17,4 @@ MonoBehaviour:
   - Bug
   - Poison
   pokeName: Venomoth
+  pokeSprite: {fileID: 21300000, guid: 02eb0eba2b95c45418308dd3f86bdb77, type: 3}

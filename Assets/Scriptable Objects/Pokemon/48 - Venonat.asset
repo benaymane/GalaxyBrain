@@ -17,3 +17,4 @@ MonoBehaviour:
   - Bug
   - Poison
   pokeName: Venonat
+  pokeSprite: {fileID: 21300000, guid: 66fb4f047e55e8b429689a0da3810f71, type: 3}

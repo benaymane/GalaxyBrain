@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using TMPro;
 
@@ -10,7 +9,12 @@ public class Game : MonoBehaviour
     [SerializeField] TMP_Text gameText;
     [SerializeField] Button yesButton;
     [SerializeField] Button noButton;
+    
+    [SerializeField] GameObject revealPanel;
+    [SerializeField] TMP_Text revealText;
+    [SerializeField] Image revealImg;
 
+    [SerializeField] State startState;
     // Start is called before the first frame update
     void Start() {
         updateQuestionText();
@@ -27,29 +31,41 @@ public class Game : MonoBehaviour
         currentState = currentState.getLeft();
         updateQuestionText();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    
+    public void playAgain() {
+        currentState = startState;
+        revealPanel.SetActive(false);
+        updateQuestionText();
     }
 
     void updateQuestionText() {
         if(currentStateIsNull()) return;
-
-        if (currentState == null) {
-            return;
-        }
         
         if (currentState.isLeaf()) {
-            gameText.text = currentState.getPokemon().getName();
+            Pokemon guessedPokemon = currentState.getPokemon();
+            if(guessedPokemon != null) {
+                gameText.text = currentState.getPokemon().getName();
+                showAndUpdateRevealUI(guessedPokemon);
+            }
         }
         else {
             gameText.text = currentState.getQuestionText();
         }
+
+        unselectButton();
     }
 
     private bool currentStateIsNull() {
         return currentState == null;
+    }
+
+    private void showAndUpdateRevealUI(Pokemon pokemon) {
+        revealPanel.SetActive(true);
+        revealText.text = pokemon.toString();
+        revealImg.overrideSprite = pokemon.getSprite();
+    }
+
+    private void unselectButton() {
+        EventSystem.current.SetSelectedGameObject(null);
     }
 }

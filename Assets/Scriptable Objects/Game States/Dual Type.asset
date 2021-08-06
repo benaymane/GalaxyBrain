@@ -15,4 +15,4 @@ MonoBehaviour:
   question: {fileID: 11400000, guid: 3b6e0986ad0052544a9c9528eeeb4be1, type: 2}
   pokemon: {fileID: 0}
   rightState: {fileID: 11400000, guid: 93c80416a0705154d8d8639a6e5f224e, type: 2}
-  leftState: {fileID: 11400000, guid: 49be09a9a5ce2864db3ff198d3426acd, type: 2}
+  leftState: {fileID: 11400000, guid: 829768e3369bc0d4a923ffebe6d41470, type: 2}

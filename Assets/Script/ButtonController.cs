@@ -6,6 +6,8 @@ public class ButtonController : MonoBehaviour {
         int sceneIndex = SceneManager.GetActiveScene().buildIndex;
         if(++sceneIndex < SceneManager.sceneCountInBuildSettings) {
             SceneManager.LoadScene(sceneIndex);
+        } else {
+            SceneManager.LoadScene(0);
         }
     }
 

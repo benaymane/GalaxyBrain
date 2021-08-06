@@ -17,3 +17,4 @@ MonoBehaviour:
   - Water
   - Psychic
   pokeName: Starmie
+  pokeSprite: {fileID: 21300000, guid: 2da3cf78b0ab8c44b8b10c7a484effdf, type: 3}

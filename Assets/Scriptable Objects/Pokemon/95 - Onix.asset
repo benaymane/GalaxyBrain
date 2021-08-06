@@ -17,3 +17,4 @@ MonoBehaviour:
   - Rock
   - Ground
   pokeName: Onix
+  pokeSprite: {fileID: 21300000, guid: 9c0bde4ec562ea240ae73a7fdbaf4b62, type: 3}

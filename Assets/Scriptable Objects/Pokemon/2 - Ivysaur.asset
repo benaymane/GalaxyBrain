@@ -17,3 +17,4 @@ MonoBehaviour:
   - Grass
   - Poison
   pokeName: Ivysaur
+  pokeSprite: {fileID: 21300000, guid: e4c1650f5f03839488759fb23bd15c88, type: 3}
