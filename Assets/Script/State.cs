@@ -8,6 +8,7 @@ public class State : ScriptableObject {
     [SerializeField] Pokemon pokemon;
     [SerializeField] State rightState;
     [SerializeField] State leftState;
+    [SerializeField] State parentState;
 
     public string getQuestionText() {
         if(question != null) {
@@ -22,6 +23,10 @@ public class State : ScriptableObject {
 
     public State getLeft() {
         return leftState;
+    }
+
+    public State getParent() {
+        return parentState;
     }
 
     public Pokemon getPokemon() {

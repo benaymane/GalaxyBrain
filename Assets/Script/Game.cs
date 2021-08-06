@@ -31,6 +31,12 @@ public class Game : MonoBehaviour
         currentState = currentState.getLeft();
         updateQuestionText();
     }
+
+    public void traverseParent() {
+        if(currentStateIsNull()) return;
+        currentState = currentState.getParent();
+        updateQuestionText();
+    }
     
     public void playAgain() {
         currentState = startState;

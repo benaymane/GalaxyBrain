@@ -16,3 +16,4 @@ MonoBehaviour:
   pokemon: {fileID: 0}
   rightState: {fileID: 11400000, guid: f79de07694bfb7e40acb36750bb42beb, type: 2}
   leftState: {fileID: 11400000}
+  parentState: {fileID: 11400000}
